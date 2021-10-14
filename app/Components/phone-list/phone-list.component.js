@@ -1,5 +1,5 @@
 angular.module('phoneList').component('phoneList', {
-  templateUrl: 'app/phone-list/phone-list.template.html',
+  templateUrl: 'app/Components/phone-list/phone-list.template.html',
   controller: ['$http',PhoneListController]
 });
 

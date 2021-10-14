@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('angularTestApp', ['phoneList']);
+angular.module('angularTestApp', ['phoneList','ngRoute','phoneDetail']);
