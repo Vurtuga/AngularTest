@@ -4,20 +4,32 @@
         "name": "Nexus S",
         "snippet": "Fast just got faster with Nexus S.",
         "age":3,
-        "imageUrl": "app/img/phones/1.jpg"
+        "imageUrl": "app/img/phones/1.jpg",
+        "connectivity": {
+            "infrared" :true,
+            "GPS" :false
+        }
     },
     {
         "id": 2,
         "name": "Motorola XOOM™ with Wi-Fi",
         "snippet": "The Next, Next Generation tablet.",
         "age":2,
-        "imageUrl": "app/img/phones/2.jpg"
+        "imageUrl": "app/img/phones/2.jpg",
+        "connectivity": {
+            "infrared" :false,
+            "GPS" :false
+        }
     },
     {
         "id": 3,
         "name": "MOTOROLA XOOM™",
         "snippet": "MOTOROLA The Next, Next Generation tablet.",
         "age":1,
-        "imageUrl": "app/img/phones/3.jpg"
+        "imageUrl": "app/img/phones/3.jpg",
+        "connectivity": {
+            "infrared" :false,
+            "GPS" :true
+        }
     }
 ]

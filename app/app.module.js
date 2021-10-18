@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('angularTestApp', ['phoneList','ngRoute','phoneDetail']);
+angular.module('angularTestApp', ['core','ngRoute','ngAnimate','phoneList','phoneDetail']);

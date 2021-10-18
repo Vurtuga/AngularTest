@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "name": "Nexus S",
+    "snippet": "Fast just got faster with Nexus S.",
+    "age":3,
+    "imageUrl": "app/img/phones/1.jpg",
+    "connectivity": {
+        "infrared" :true,
+        "GPS" :false
+    }
+}

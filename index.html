@@ -11,13 +11,18 @@
     <script src="node_modules/angular-animate/angular-animate.js"></script>
     <script src="app/app.module.js"></script>
     <script src="app/app.config.js"></script>
+    <script src="app/Core/core.module.js"></script>
+    <script src="app/Core/checkmark/checkmark.filters.js"></script>
+    <script src="app/Core/phone/phone.module.js"></script>
+    <script src="app/Core/phone/phone.service.js"></script>
     <script src="app/Components/phone-list/phone-list.module.js"></script>
     <script src="app/Components/phone-list/phone-list.component.js"></script>
     <script src="app/Views/phone-detail/phone-detail.module.js"></script>
     <script src="app/Views/phone-detail/phone-detail.component.js"></script>
 </head>
 <body>
-    <!-- <div ng-view></div> -->
-    <phone-list></phone-list>
+    <div class="view-container">
+        <div ng-view class="view-frame"></div>
+    </div>
 </body>
 </html>

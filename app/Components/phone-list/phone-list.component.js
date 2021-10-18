@@ -1,15 +1,20 @@
 angular.module('phoneList').component('phoneList', {
   templateUrl: 'app/Components/phone-list/phone-list.template.html',
-  controller: ['$http',PhoneListController]
+  //controller: ['$http',PhoneListController]
+  controller: ['Phone',
+    function PhoneListController(Phone) {
+      this.phones = Phone.query();
+      this.orderProp = 'age';
+  }]
 });
 
-function PhoneListController($http) {
-  let self = this;
-  $http.get('app/Data/phones.json').then(function(response){
-    self.phones = response.data;
-  });
-  self.orderProp="age";
-}
+// function PhoneListController($http) {
+//   let self = this;
+//   $http.get('app/Data/phones.json').then(function(response){
+//     self.phones = response.data;
+//   });
+//   self.orderProp="age";
+// }
 
 
 

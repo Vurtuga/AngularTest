@@ -1,7 +1,17 @@
+<img ng-src="{{$ctrl.mainImg}}" class="phone" />
+
 <div class="phone-details">
-    <p>Phone Id : <span>{{$ctrl.id}}</span></p>
-    <p>Phone Name : <span>{{$ctrl.name}}</span></p>
-    <p>Phone Snippet : <span>{{$ctrl.snippet}}</span></p>
-    <p>Phone Age : <span>{{$ctrl.age}}</span></p>
-    <img ng-src="{{$ctrl.imageUrl}}">
+    <p>Phone Id : <span>{{$ctrl.phone.id}}</span></p>
+    <p>Phone Name : <span>{{$ctrl.phone.name}}</span></p>
+    <p>Phone Snippet : <span>{{$ctrl.phone.snippet}}</span></p>
+    <p>Phone Age : <span>{{$ctrl.phone.age}}</span></p>
+    <img ng-src="{{$ctrl.phone.imageUrl}}" ng-click="$ctrl.setImage($ctrl.phone.imageUrl)" ng-dblclick="$ctrl.onDblclick($ctrl.phone.imageUrl)">
+
+
+    <dl>
+        <dt>Infrared</dt>
+        <dd>{{$ctrl.phone.connectivity.infrared | checkmark}}</dd>
+        <dt>GPS</dt>
+        <dd>{{$ctrl.phone.connectivity.GPS | checkmark}}</dd>
+      </dl>
 </div>

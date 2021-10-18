@@ -1,0 +1,11 @@
+{
+    "id": 2,
+    "name": "Motorola XOOM™ with Wi-Fi",
+    "snippet": "The Next, Next Generation tablet.",
+    "age":2,
+    "imageUrl": "app/img/phones/2.jpg",
+    "connectivity": {
+        "infrared" :false,
+        "GPS" :false
+    }
+}

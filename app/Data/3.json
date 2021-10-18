@@ -1,0 +1,11 @@
+{
+    "id": 3,
+    "name": "MOTOROLA XOOM™",
+    "snippet": "MOTOROLA The Next, Next Generation tablet.",
+    "age":1,
+    "imageUrl": "app/img/phones/3.jpg",
+    "connectivity": {
+        "infrared" :false,
+        "GPS" :true
+    }
+}
